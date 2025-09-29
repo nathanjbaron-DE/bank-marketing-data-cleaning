@@ -13,7 +13,7 @@ def main():
     # -----------------------------
     # Clean job and education columns
     df['job'] = df['job'].str.replace(".", "_")
-    df['education'] = df['education'].str.replace(".", "_").replace("unknown", np.NaN)
+    df['education'] = df['education'].str.replace(".", "_").replace("unknown", np.nan)
     
     # Standardize credit_default column
     df.loc[df['credit_default'] == 'yes', 'credit_default'] = 1
