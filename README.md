@@ -1,7 +1,7 @@
 # Bank Marketing Data Pipeline (Python, ETL)
 
 ## Overview
-This project demonstrates an end-to-end ETL (Extract, Transform, Load) process using Python and Pandas.
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) process using Python, pandas, and NumPy.
 The goal is to clean and transform raw bank marketing data into structured CSV files for client, campaign, and economic information.
 
 ## Features
