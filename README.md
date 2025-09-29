@@ -20,12 +20,13 @@ The goal is to clean and transform raw bank marketing data into structured CSV f
 - ETL pipeline design
 
 ## Files
-- pipeline.py – ETL pipeline script
-- bank_marketing.csv – raw input dataset
-- client.csv – cleaned client dataset
-- campaign.csv – cleaned campaign dataset
-- economics.csv – cleaned economic dataset
-- requirements.txt – Python dependencies
+- `pipeline.py` – ETL pipeline script
+- `bank_marketing.csv` – raw input dataset
+- `client.csv` – cleaned client dataset
+- `campaign.csv` – cleaned campaign dataset
+- `economics.csv` – cleaned economic dataset
+- `requirements.txt` – Python dependencies
+- `README.md` – Project documentation
 
 ## How to Run
 ```bash
