@@ -29,28 +29,28 @@ The goal is to clean and transform raw bank marketing data into structured CSV f
 - `README.md` – Project documentation
 
 ## How to Run
-```bash
-# Go to Documents folder
-cd ~/Documents
+#### Go to Documents folder
+```cd ~/Documents```
 
-# Clone repo
-git clone https://github.com/nathanjbaron-DE/bank-marketing-data-cleaning.git
-cd bank-marketing-data-cleaning
+#### Clone repo
+```git clone https://github.com/nathanjbaron-DE/bank-marketing-data-cleaning.git```
 
-# Create virtual environment
-python3 -m venv venv
+```cd bank-marketing-data-cleaning```
 
-# Activate virtual environment
-source venv/bin/activate
+#### Create virtual environment
+```python3 -m venv venv```
 
-# Upgrade pip
-pip install --upgrade pip
+#### Activate virtual environment
+```source venv/bin/activate```
 
-# Install dependencies
-pip install -r requirements.txt
+#### Upgrade pip
+```pip install --upgrade pip```
 
-# Run the ETL pipeline (outputs saved in current folder)
+#### Install dependencies
+```pip install -r requirements.txt```
+
+#### Run the ETL pipeline (outputs saved in current folder)
 python3 pipeline.py
 
-# Check outputs
+#### Check outputs
 ls *.csv
